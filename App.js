@@ -8,7 +8,6 @@ import {
   Image,
   TouchableOpacity,
 } from "react-native";
-import ScrollViewCommands from "react-native/Libraries/Components/ScrollView/ScrollViewCommands";
 
 export default function App() {
   return (
@@ -66,7 +65,6 @@ export default function App() {
             <ScrollView horizontal={true} style={styles.horizontal}>
               <View
                 style={{
-                  border: ScrollViewCommands,
                   backgroundColor: "orange",
                   height: 300,
                   width: 150,
@@ -82,7 +80,6 @@ export default function App() {
               </View>
               <View
                 style={{
-                  border: ScrollViewCommands,
                   backgroundColor: "orange",
                   height: 300,
                   width: 150,
@@ -98,7 +95,6 @@ export default function App() {
               </View>
               <View
                 style={{
-                  border: ScrollViewCommands,
                   backgroundColor: "orange",
                   height: 300,
                   width: 150,
@@ -114,7 +110,6 @@ export default function App() {
               </View>
               <View
                 style={{
-                  border: ScrollViewCommands,
                   backgroundColor: "orange",
                   height: 300,
                   width: 150,
